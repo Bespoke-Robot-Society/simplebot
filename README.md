@@ -28,13 +28,22 @@ an MPU6050 (Accelerometer/gyroscope) and nRF24l01 (2.4GHz radio module) are incl
 
 ## Circuit Board
 
-The protoboard design included uses all through-hole components.
+A through-hole (THT) PCB design is available for easy assembly.
 
-![Wiring Diagram image](https://raw.githubusercontent.com/Bespoke-Robot-Society/simplebot/refs/heads/master/images/Protoboard%20Wiring%20Overview.png)
+![PCB Schematic](https://raw.githubusercontent.com/Bespoke-Robot-Society/simplebot/refs/heads/master/images/PCB_schematic.png)
 
-PCB design is still to-do.
+The PCB integrates:
+- Raspberry Pi Pico microcontroller (or compatible)
+- TB6612FNG motor driver (or external H-bridge support)
+- Buck converter for power regulation
+- LM393-based optical encoder circuit
+- Headers for nRF24L01 radio and MPU6050 IMU
+- 4 sensor headers for expansion
+- Analog and digital GPIO breakouts
 
-The current protoboard pinout leaves 7 GPIOs open on the Pi Pico, including UART 0 and all three ADCs. 
+See [PCB_GUIDE.md](PCB_GUIDE.md) for detailed PCB documentation.
+
+See [ASSEMBLY_GUIDE.md](ASSEMBLY_GUIDE.md) for mechanical assembly instructions. 
 
 ## Software
 
