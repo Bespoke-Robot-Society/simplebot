@@ -59,7 +59,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|130280001|61264201|1e7b4800-d62e-4c4c-a4da-7c8c2db9e66f|916c2add-857f-4065-a3ff-c38a2a8f19ae"
+      ],
       "meta": {
         "version": 2
       },
@@ -102,7 +104,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -491,11 +493,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/john/Development/BespokeRobots/simplebot/kicad_pcb/tht_Gerber/",
       "pos_files": "",
       "specctra_dsn": "diffdrive_robot_microcontroller_board_to-be-autorouted_2.dsn",
-      "step": "",
-      "svg": "",
+      "step": "diffdrive_robot_microcontroller_board.step",
+      "svg": "/home/john/Development/BespokeRobots/simplebot/niloy_smt_pcb/diffdrive_robot_microcontroller_board/diffdrive_robot_microcontroller_board/export_silkscreens/",
       "vrml": ""
     },
     "page_layout_descr_file": ""

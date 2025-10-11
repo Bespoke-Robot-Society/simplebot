@@ -18,8 +18,8 @@ class SimpleBot:
         self.right.forward(speed)
         
     def reverse(self, speed=50):
-        self.left.forward(speed)
-        self.right.forward(speed)
+        self.left.reverse(speed)
+        self.right.reverse(speed)
         
     def stop(self):
         self.left.stop()
